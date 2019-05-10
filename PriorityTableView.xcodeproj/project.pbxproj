@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2785E11C228541C400D567C6 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785E11B228541C300D567C6 /* DateCell.swift */; };
+		2785E1252285432E00D567C6 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785E11F228542F200D567C6 /* PriorityQueue.swift */; };
+		2785E1262285437F00D567C6 /* QueueError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785E121228542F200D567C6 /* QueueError.swift */; };
+		2785E1272285437F00D567C6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785E123228542F200D567C6 /* Queue.swift */; };
+		2785E12A228544B300D567C6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785E129228544B300D567C6 /* Date+Extension.swift */; };
+		51793FD36490278782643B12 /* Pods_PriorityTableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FA826BA9031093032AE74E /* Pods_PriorityTableViewUITests.framework */; };
+		A3F38653B7FCE785D81E6006 /* Pods_PriorityTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586731B952B357D23AA79D2D /* Pods_PriorityTableView.framework */; };
+		C397019D830E9130F9A23F57 /* Pods_PriorityTableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F42D72EEEC84DFC2B583384 /* Pods_PriorityTableViewTests.framework */; };
 		ECE884F7228534D500125E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE884F6228534D500125E55 /* AppDelegate.swift */; };
-		ECE884F9228534D500125E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE884F8228534D500125E55 /* ViewController.swift */; };
+		ECE884F9228534D500125E55 /* PriorityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE884F8228534D500125E55 /* PriorityTableView.swift */; };
 		ECE884FC228534D500125E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE884FA228534D500125E55 /* Main.storyboard */; };
 		ECE884FF228534D500125E55 /* PriorityTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECE884FD228534D500125E55 /* PriorityTableView.xcdatamodeld */; };
 		ECE88501228534DD00125E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE88500228534DD00125E55 /* Assets.xcassets */; };
@@ -35,9 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2785E11B228541C300D567C6 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		2785E11F228542F200D567C6 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		2785E121228542F200D567C6 /* QueueError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueError.swift; sourceTree = "<group>"; };
+		2785E123228542F200D567C6 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		2785E129228544B300D567C6 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		4C08542B3FD22E7B87BE04B8 /* Pods-PriorityTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriorityTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriorityTableViewTests/Pods-PriorityTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56FA826BA9031093032AE74E /* Pods_PriorityTableViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriorityTableViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		586731B952B357D23AA79D2D /* Pods_PriorityTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriorityTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9C915AEFE58FC43F009C70 /* Pods-PriorityTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriorityTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriorityTableViewTests/Pods-PriorityTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F42D72EEEC84DFC2B583384 /* Pods_PriorityTableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriorityTableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC411995ABBF3DCE9E4A50F2 /* Pods-PriorityTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriorityTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriorityTableView/Pods-PriorityTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		D00DE635DF9667F63230A03D /* Pods-PriorityTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriorityTableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriorityTableViewUITests/Pods-PriorityTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB353C7F89CD37AE122AEA3B /* Pods-PriorityTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriorityTableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriorityTableViewUITests/Pods-PriorityTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECE884F3228534D500125E55 /* PriorityTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriorityTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE884F6228534D500125E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECE884F8228534D500125E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECE884F8228534D500125E55 /* PriorityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityTableView.swift; sourceTree = "<group>"; };
 		ECE884FB228534D500125E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECE884FE228534D500125E55 /* PriorityTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PriorityTableView.xcdatamodel; sourceTree = "<group>"; };
 		ECE88500228534DD00125E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +70,7 @@
 		ECE88515228534DE00125E55 /* PriorityTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriorityTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE88519228534DE00125E55 /* PriorityTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityTableViewUITests.swift; sourceTree = "<group>"; };
 		ECE8851B228534DE00125E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE705C3425705E4137C16C8 /* Pods-PriorityTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriorityTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriorityTableView/Pods-PriorityTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F38653B7FCE785D81E6006 /* Pods_PriorityTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C397019D830E9130F9A23F57 /* Pods_PriorityTableViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51793FD36490278782643B12 /* Pods_PriorityTableViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2785E1282285439F00D567C6 /* PriorityQueue */ = {
+			isa = PBXGroup;
+			children = (
+				2785E11F228542F200D567C6 /* PriorityQueue.swift */,
+				2785E121228542F200D567C6 /* QueueError.swift */,
+				2785E123228542F200D567C6 /* Queue.swift */,
+			);
+			path = PriorityQueue;
+			sourceTree = "<group>";
+		};
+		46E8405639F7BA4655D0B078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				586731B952B357D23AA79D2D /* Pods_PriorityTableView.framework */,
+				9F42D72EEEC84DFC2B583384 /* Pods_PriorityTableViewTests.framework */,
+				56FA826BA9031093032AE74E /* Pods_PriorityTableViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715CF140C95B0DB8CEC34621 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC411995ABBF3DCE9E4A50F2 /* Pods-PriorityTableView.debug.xcconfig */,
+				EEE705C3425705E4137C16C8 /* Pods-PriorityTableView.release.xcconfig */,
+				4C08542B3FD22E7B87BE04B8 /* Pods-PriorityTableViewTests.debug.xcconfig */,
+				9C9C915AEFE58FC43F009C70 /* Pods-PriorityTableViewTests.release.xcconfig */,
+				DB353C7F89CD37AE122AEA3B /* Pods-PriorityTableViewUITests.debug.xcconfig */,
+				D00DE635DF9667F63230A03D /* Pods-PriorityTableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ECE884EA228534D500125E55 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				ECE8850D228534DE00125E55 /* PriorityTableViewTests */,
 				ECE88518228534DE00125E55 /* PriorityTableViewUITests */,
 				ECE884F4228534D500125E55 /* Products */,
+				715CF140C95B0DB8CEC34621 /* Pods */,
+				46E8405639F7BA4655D0B078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				ECE884F6228534D500125E55 /* AppDelegate.swift */,
-				ECE884F8228534D500125E55 /* ViewController.swift */,
+				ECE884F8228534D500125E55 /* PriorityTableView.swift */,
+				2785E1282285439F00D567C6 /* PriorityQueue */,
+				2785E11B228541C300D567C6 /* DateCell.swift */,
+				2785E129228544B300D567C6 /* Date+Extension.swift */,
 				ECE884FA228534D500125E55 /* Main.storyboard */,
 				ECE88500228534DD00125E55 /* Assets.xcassets */,
 				ECE88502228534DD00125E55 /* LaunchScreen.storyboard */,
@@ -135,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE8851E228534DE00125E55 /* Build configuration list for PBXNativeTarget "PriorityTableView" */;
 			buildPhases = (
+				DE9EF48CE205E2833D13C33B /* [CP] Check Pods Manifest.lock */,
 				ECE884EF228534D500125E55 /* Sources */,
 				ECE884F0228534D500125E55 /* Frameworks */,
 				ECE884F1228534D500125E55 /* Resources */,
+				637C468EC1E14B67EC54C51C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE88521228534DE00125E55 /* Build configuration list for PBXNativeTarget "PriorityTableViewTests" */;
 			buildPhases = (
+				4BB3B31452A73320DD21D3F4 /* [CP] Check Pods Manifest.lock */,
 				ECE88506228534DD00125E55 /* Sources */,
 				ECE88507228534DD00125E55 /* Frameworks */,
 				ECE88508228534DD00125E55 /* Resources */,
@@ -170,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE88524228534DE00125E55 /* Build configuration list for PBXNativeTarget "PriorityTableViewUITests" */;
 			buildPhases = (
+				EC30DAAD4CDAA994BECDAA67 /* [CP] Check Pods Manifest.lock */,
 				ECE88511228534DE00125E55 /* Sources */,
 				ECE88512228534DE00125E55 /* Frameworks */,
 				ECE88513228534DE00125E55 /* Resources */,
@@ -254,14 +321,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BB3B31452A73320DD21D3F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriorityTableViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		637C468EC1E14B67EC54C51C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PriorityTableView/Pods-PriorityTableView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PriorityTableView/Pods-PriorityTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9EF48CE205E2833D13C33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriorityTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC30DAAD4CDAA994BECDAA67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriorityTableViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECE884EF228534D500125E55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE884F9228534D500125E55 /* ViewController.swift in Sources */,
+				2785E1262285437F00D567C6 /* QueueError.swift in Sources */,
+				2785E1272285437F00D567C6 /* Queue.swift in Sources */,
+				ECE884F9228534D500125E55 /* PriorityTableView.swift in Sources */,
 				ECE884FF228534D500125E55 /* PriorityTableView.xcdatamodeld in Sources */,
+				2785E1252285432E00D567C6 /* PriorityQueue.swift in Sources */,
+				2785E12A228544B300D567C6 /* Date+Extension.swift in Sources */,
 				ECE884F7228534D500125E55 /* AppDelegate.swift in Sources */,
+				2785E11C228541C400D567C6 /* DateCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +597,7 @@
 		};
 		ECE8851F228534DE00125E55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC411995ABBF3DCE9E4A50F2 /* Pods-PriorityTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +615,7 @@
 		};
 		ECE88520228534DE00125E55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE705C3425705E4137C16C8 /* Pods-PriorityTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +633,7 @@
 		};
 		ECE88522228534DE00125E55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C08542B3FD22E7B87BE04B8 /* Pods-PriorityTableViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +654,7 @@
 		};
 		ECE88523228534DE00125E55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9C915AEFE58FC43F009C70 /* Pods-PriorityTableViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +675,7 @@
 		};
 		ECE88525228534DE00125E55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB353C7F89CD37AE122AEA3B /* Pods-PriorityTableViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +695,7 @@
 		};
 		ECE88526228534DE00125E55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00DE635DF9667F63230A03D /* Pods-PriorityTableViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
