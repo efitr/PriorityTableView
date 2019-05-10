@@ -11,6 +11,10 @@ import UIKit
 class UIPriorityTableView: UIViewController {
 
     var tableView: UITableView!
+    
+    open var hasUncommittedUpdates: Bool { get }
+    
+    
 
 }
 
@@ -44,6 +48,14 @@ extension UIPriorityTableView: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, shouldShowMenuForRowAt indexPath: IndexPath) -> Bool {
+        
+    }
+    
+    func moveRow(at indexPath: IndexPath, to newIndexPath: IndexPath) {
+        
+    }
+    
+    func reloadData() {
         
     }
     
