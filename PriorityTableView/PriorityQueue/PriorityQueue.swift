@@ -57,6 +57,12 @@ extension PriorityQueue: Queue {
         self.queue.removeAll()
     }
     
+    // Allows you to grab value for index at tableview
+    public func getValueAtIndex(_ index: Int) -> DataType? {
+        let value = self.queue[index]
+        return value
+    }
+    
     /**
      Pops the first item in the queue and restores the min heap order of the queue by moving the root item towards the end of the queue.
      - returns: The first item in the queue.
